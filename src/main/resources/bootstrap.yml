@@ -1,0 +1,7 @@
+---
+spring:
+  application.name: "RatingService"
+  cloud:
+    config:
+      name: "${spring.application.name}"
+      uri: "http://localhost:8888"
